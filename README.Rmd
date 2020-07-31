@@ -7,6 +7,9 @@ output: md_document
 knitr::opts_chunk$set(echo = TRUE, message= FALSE)
 ```
 
+![](me.jpg) </br>
+![](Me.png) </br>
+
 [Traveling Salesman Problem](https://en.wikipedia.org/wiki/Travelling_salesman_problem) in Wikipedia
 
 ### Load libraries
@@ -16,6 +19,7 @@ library(dplyr)
 library(ggplot2)
 library(scales)
 library(TSP)
+#output: github_document
 ```
 
 ### Load the image to convert
