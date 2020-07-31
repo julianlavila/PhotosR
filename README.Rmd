@@ -7,7 +7,7 @@ output: md_document
 knitr::opts_chunk$set(echo = TRUE, message= FALSE)
 ```
 
-![](me.jpg |20%) </br>
+![](me.jpg |20%) 
 
 [Traveling Salesman Problem](https://en.wikipedia.org/wiki/Travelling_salesman_problem) in Wikipedia
 
