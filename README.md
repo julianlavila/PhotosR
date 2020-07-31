@@ -1,4 +1,5 @@
-![](me.jpg) </br> ![](Me.png) </br>
+Image conversion to linedraw inspired in the Traveling Salesman Problem
+-----------------------------------------------------------------------
 
 [Traveling Salesman
 Problem](https://en.wikipedia.org/wiki/Travelling_salesman_problem) in
