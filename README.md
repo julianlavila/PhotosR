@@ -1,6 +1,9 @@
 Image conversion to linedraw inspired in the Traveling Salesman Problem
 -----------------------------------------------------------------------
 
+![](https://github.com/julianlavila/PhotosR/blob/master/me.jpg%2020%)
+![](https://github.com/julianlavila/PhotosR/blob/master/Me.png%2020%)
+
 [Traveling Salesman
 Problem](https://en.wikipedia.org/wiki/Travelling_salesman_problem) in
 Wikipedia

@@ -7,7 +7,11 @@ output: md_document
 knitr::opts_chunk$set(echo = TRUE, message= FALSE)
 ```
 
+
 ## Image conversion to linedraw inspired in the Traveling Salesman Problem
+![](https://github.com/julianlavila/PhotosR/blob/master/me.jpg 20%)
+![](https://github.com/julianlavila/PhotosR/blob/master/Me.png 20%)
+
 [Traveling Salesman Problem](https://en.wikipedia.org/wiki/Travelling_salesman_problem) in Wikipedia
 
 ### Load libraries
