@@ -3,54 +3,18 @@ README
 
 ## Line draw inspired in Traveling Salesman Problem
 
-![Original](me.jpeg) ![Final](Me.png)
+![Original](README_files/figure-gfm/me.jpeg)
+![Final](README_files/figure-gfm/Plot-1.png)
 
-Traveling Salesman Problem in
-[Wikipedia](https://en.wikipedia.org/wiki/Travelling_salesman_problem)
+[Traveling Salesman
+Problem](https://en.wikipedia.org/wiki/Travelling_salesman_problem) in
+Wikipedia
 
 ### Load libraries
 
 ``` r
 library(imager)
-```
-
-    ## Loading required package: magrittr
-
-    ## 
-    ## Attaching package: 'imager'
-
-    ## The following object is masked from 'package:magrittr':
-    ## 
-    ##     add
-
-    ## The following objects are masked from 'package:stats':
-    ## 
-    ##     convolve, spectrum
-
-    ## The following object is masked from 'package:graphics':
-    ## 
-    ##     frame
-
-    ## The following object is masked from 'package:base':
-    ## 
-    ##     save.image
-
-``` r
 library(dplyr)
-```
-
-    ## 
-    ## Attaching package: 'dplyr'
-
-    ## The following objects are masked from 'package:stats':
-    ## 
-    ##     filter, lag
-
-    ## The following objects are masked from 'package:base':
-    ## 
-    ##     intersect, setdiff, setequal, union
-
-``` r
 library(ggplot2)
 library(scales)
 library(TSP)

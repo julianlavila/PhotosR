@@ -9,12 +9,13 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Line draw inspired in Traveling Salesman Problem
 
-![Original](me.jpeg) ![Final](Me.png)
+![Original](https://github.com/julianlavila/PhotosR/me.jpeg) ![Final](https://github.com/julianlavila/PhotosR/Me.png)
 
-Traveling Salesman Problem in [Wikipedia](https://en.wikipedia.org/wiki/Travelling_salesman_problem)
+[Traveling Salesman Problem](https://en.wikipedia.org/wiki/Travelling_salesman_problem) in Wikipedia
+
 
 ### Load libraries
-```{r libraries , mesage=FALSE}
+```{r libraries , message= FALSE}
 library(imager)
 library(dplyr)
 library(ggplot2)
@@ -24,13 +25,13 @@ library(TSP)
 
 ### Load the image to convert
 
-```{r load , mesage=FALSE}
+```{r load , message=FALSE}
 # Point to the place where your image is stored
 file <- "me.jpg"
 ```
 
 ### convert to grayscale
-```{r conversion , mesage=FALSE}
+```{r conversion , message=FALSE}
 # Load, convert to grayscale, filter image (to convert it to bw) and sample
 load.image(file) %>% 
   grayscale() %>%
@@ -42,7 +43,7 @@ load.image(file) %>%
 ```
 
 ### TSP distances 
-```{r TSP , mesage=FALSE}
+```{r TSP , message=FALSE}
 # Compute distances and solve TSP (it may take a minute)
 as.TSP(dist(data)) %>% 
   solve_TSP(method = "arbitrary_insertion") %>% 
@@ -52,7 +53,7 @@ data_to_plot <- data[solution,]
 ```
 
 ### Plot the linedraw
-```{r Plot, mesage=FALSE}
+```{r Plot, message=FALSE}
 # A little bit of ggplot to plot results
 ggplot(data_to_plot, aes(x,y)) +
   geom_path() +
