@@ -9,7 +9,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Line draw inspired in Traveling Salesman Problem
 
-![Original](https://github.com/julianlavila/PhotosR/mePNG.png | width=100) ![Final](https://github.com/julianlavila/PhotosR/Me.png | width=100)
+![Original](https://github.com/julianlavila/PhotosR/mePNG.png | width=50) <br />
+
+![Final](https://github.com/julianlavila/PhotosR/Me.png | width=500)
 
 [Traveling Salesman Problem](https://en.wikipedia.org/wiki/Travelling_salesman_problem) in Wikipedia
 
